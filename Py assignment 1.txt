@@ -1,0 +1,50 @@
+Python Advance Assignment 1
+
+1. What makes NumPy.shape() different from NumPy.size()?
+   
+    Shape relates to the size of the dimensions of an N-dimensional array.
+    Size regarding arrays, relates to the amount (or count) of elements that are contained in the array (or sometimes, at the top dimension of the array - when used as length).
+    
+    numpy.shape() function gives us the number of elements in each dimension of an array.
+
+    numpy.size() function will returns the size of a given array.
+
+
+
+2. In NumPy, describe the idea of broadcasting.
+
+   broadcasting means the ability of NumPy to treat arrays of different shapes during arithmetic operations. 
+   Arithmetic operations on arrays are usually done on corresponding elements and  
+   If two arrays are of exactly having same shape, then these operations are smoothly performed.
+   
+
+
+3. What makes Python better than other libraries for numerical computation?
+   
+   Numerical computaion means calculation or mathematical operation of numbers in my opinion.. 
+   it is easy by using python because python is simple and basic programming language , very less code is required to any operation.
+   It has very easy syntax when compared to other languages .
+
+
+4. How does NumPy deal with files? 
+   NumPy introduces a simple file format for ndarray objects. 
+   This . npy file stores data, shape, dtype and other information required to reconstruct the ndarray in a disk file such that the array is correctly retrieved even if the file is on another machine with different architecture.
+   The numpy.save() file stores the input array in a disk file with npy extension.
+  we use load() function to reconstruct the array outfile
+   savetxt() and loadtxt() will store and retrieve the data and also allows to accept the extra or additional parameters like header ,footer etc..
+
+
+5. Mention the importance of NumPy.empty().
+
+   The empty() function is used to create a new array of given shape and type, without initializing entries.
+   the numpy.empty() function doesn't set the array values to zero 
+   And this function requires the user to set all the values in the array manually and should be used with caution.
+   syntax for this : 
+        numpy.empty(shape, dtype=float, order='C')  
+
+
+
+   Thank you ...
+    
+   
+  
